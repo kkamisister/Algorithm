@@ -13,4 +13,5 @@ for M in range(1, M+1):
 
     bucket_list[i-1:j] = temp
 
-print(bucket_list)
+for i in bucket_list:
+    print(i, end = ' ')
