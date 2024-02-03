@@ -1,32 +1,29 @@
 T = 10
-
 for tc in range(1, T+1):
     N = int(input())
-    buildings = list(map(int, input().split()))
+    building_list = list(map(int, input().split()))
 
-    cnt = 0    # 조망권이 확보된 세대 수를 입력할 변수
+    result = 0 # 조망권 갯수를 저장하는 변수
 
-    for building in range(2, N-2):  # 빌딩 리스트에서 양쪽 두 값씩 제외하고 순회
-        temp = buildings[building-2:building+3] # 현재 building 기준 양쪽 두 값을 포함하여 슬라이싱, 변수에 저장
+    for idx in range(N):
+        # building_list[idx] : 현재 위치
 
-        # temp에서 최댓값 찾기
-        temp_max = 0
-        for height in temp:
-            if temp_max < height:
-                temp_max = height
+        if building_list[idx] != 0:
+            delta_idx = [-2, -1, 1, 2]
+            # idx + delta_idx[n]     n 번 인덱스의 위치의 빌딩 높이를 확인할 수 있음
+            # building_list[idx + delta_idx[0]] : 좌측 2번째 빌딩의 높이를 알 수 있다.
+            # ...
+            # building_list[idx + delta_idx[3]] : 우측 2번째 빌딩의 높이를 알 수 있다.
+            # 가장 높은 건물을 확인
+            max_height = 0
+            for n in range(4):
+                if max_height < building_list[idx + delta_idx[n]]:
+                    max_height = building_list[idx + delta_idx[n]]
 
-        # 현재 building이 temp에서 최댓값인지 판별, 해당 값 제거
-        if buildings[building] == temp_max:
-            temp.remove(buildings[building])
+            # 현재 빌딩의 높이와 가장 큰 빌딩의 높이를 비교
+            # 그리고 조망권을 확보할 수 있는지 계산
 
-        # 최댓값이 제거 된 상태에서 다시 최댓값을 구하고 (공동 최댓값이거나 or 두 번째로 큰 값이거나)
-        temp_second = 0
-        for height in temp:
-            if temp_second < height:
-                temp_second = height
+            if building_list[idx] > max_height:
+                result += building_list[idx] - max_height # 조망권 누적
 
-        # 현재 building이 temp에서 유일한 최댓값이었는지 판별
-        if buildings[building] > temp_second:
-            cnt += buildings[building] - temp_second # 맞을 경우 두 번째로 큰 값과의 차를 cnt에 저장
-
-    print(f'#{tc} {cnt}')
+    print(f'#{tc} {result}')
