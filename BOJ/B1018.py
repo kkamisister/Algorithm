@@ -1,3 +1,9 @@
+import sys
+
+sys.stdin=open('input.txt')
+
+
+
 N, M = map(int, input().split())
 
 # 보드를 2차원 배열로 받을 리스트 변수 생성
