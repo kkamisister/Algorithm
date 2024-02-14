@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15aabbbe-41d9-4e62-9906-b41e45530cee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BOJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BOJ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B2304/B2304.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B2304/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B2559/B2559.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B2559/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B2559/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B2231.py" beforeDir="false" afterPath="$PROJECT_DIR$/B2231.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2cHzKgIo4wStAD2QvJVzschMrTo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../APS/SWEA/240213/S18389" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY\Codes\APS\SWEA\240213\S18389" />
@@ -45,6 +53,7 @@
   <component name="RunManager" selected="Python.S4874">
     <configuration name="B2231" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BOJ" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -66,6 +75,7 @@
     </configuration>
     <configuration name="S1222" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="240213" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -87,6 +97,7 @@
     </configuration>
     <configuration name="S18389" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="240213" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -108,6 +119,7 @@
     </configuration>
     <configuration name="S4874" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="240213" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -136,6 +148,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -157,7 +176,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
