@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="15aabbbe-41d9-4e62-9906-b41e45530cee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B2304/B2304.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B2304/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B2559/B2559.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B2559/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B2559/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B2231.py" beforeDir="false" afterPath="$PROJECT_DIR$/B2231.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B10163/B10163.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B10163/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B10163/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B1244/B1244.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B1244/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B1244/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B13300/B13300.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B13300/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B13300/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B2309/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BOJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BOJ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2cHzKgIo4wStAD2QvJVzschMrTo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,8 +45,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.B1244.executor": "Run",
+    "Python.B13300.executor": "Run",
+    "Python.B2309 (1).executor": "Debug",
+    "Python.B2309(1).executor": "Run",
+    "Python.B2309.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -45,13 +60,15 @@
       <recent name="C:\Users\SSAFY\Codes\APS\SWEA\240213\S18389" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jiwab\Desktop\codes\Algorithm\BOJ\B2309" />
+      <recent name="C:\Users\jiwab\Desktop\codes\Algorithm\BOJ\B2559" />
       <recent name="C:\Users\SSAFY\Codes\APS\SWEA\240213\S4875" />
       <recent name="C:\Users\SSAFY\Codes\APS\SWEA\240213\S4874" />
       <recent name="C:\Users\SSAFY\Codes\APS\SWEA\240213\S1222" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.S4874">
-    <configuration name="B2231" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.B13300">
+    <configuration name="B1244" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BOJ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B1244" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B2231.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B1244/B1244.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,8 +90,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="S1222" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="240213" />
+    <configuration name="B13300" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BOJ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../APS/SWEA/240213/S1222" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B13300" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../APS/SWEA/240213/S1222/S1222.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B13300/B13300.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,8 +112,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="S18389" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="240213" />
+    <configuration name="B2309(1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BOJ" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,33 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../APS/SWEA/240213/S18389" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B2309" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../APS/SWEA/240213/S18389/S18389.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="S4874" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="240213" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../APS/SWEA/240213/S4874" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../APS/SWEA/240213/S4874/S4874.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B2309/B2309(1).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,10 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.S4874" />
-        <item itemvalue="Python.S1222" />
-        <item itemvalue="Python.S18389" />
-        <item itemvalue="Python.B2231" />
+        <item itemvalue="Python.B13300" />
+        <item itemvalue="Python.B1244" />
+        <item itemvalue="Python.B2309(1)" />
       </list>
     </recent_temporary>
   </component>
@@ -200,14 +194,27 @@
           <line>11</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/B1244/B1244.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/B1244/B1244.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/B13300/B13300.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/B13300/B13300.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="icp[tk]" />
-        <watch expression="stack[top]" />
-        <watch expression="isp[stack[top]]" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
