@@ -7,8 +7,8 @@ for _ in range(4):
     coord2.append((x2, y2))
 
 for sqr in range(4):
-    for r in range(coord1[sqr][0]+1, coord2[sqr][0]+1):
-        for c in range(coord1[sqr][1]+1, coord2[sqr][1]+1):
+    for r in range(coord1[sqr][0], coord2[sqr][0]):
+        for c in range(coord1[sqr][1], coord2[sqr][1]):
             arr[r][c] = 1
 
 sqr_sum = 0
