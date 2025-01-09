@@ -1,0 +1,6 @@
+n, m = map(int, input().split())
+not_heard = set(input().strip() for _ in range(n))
+not_seen = set(input().strip() for _ in range(m))
+result = sorted(not_heard & not_seen)
+print(len(result))
+print('\n'.join(result))
