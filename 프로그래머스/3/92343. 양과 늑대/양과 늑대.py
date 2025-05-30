@@ -1,9 +1,10 @@
 from collections import defaultdict
 def solution(info, edges):
     tree = defaultdict(list)
+    
     for par, chi in edges:
         tree[par].append(chi)
-        
+    
     max_sheep = 0
     def dfs(current, sheep, wolf, visited):
         nonlocal max_sheep
@@ -15,7 +16,6 @@ def solution(info, edges):
             return
         
         max_sheep = max(max_sheep, sheep)
-        
         for i in range(len(visited)):
             if visited[i]:
                 for child in tree[i]:
@@ -27,4 +27,5 @@ def solution(info, edges):
     visited = [0]*len(info)
     visited[0] = 1
     dfs(0, 0, 0, visited)
+                        
     return max_sheep
