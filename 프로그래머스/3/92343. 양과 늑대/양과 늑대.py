@@ -1,8 +1,8 @@
 from collections import defaultdict
 def solution(info, edges):
     tree = defaultdict(list)
-    for parent, child in edges:
-        tree[parent].append(child)
+    for par, chi in edges:
+        tree[par].append(chi)
         
     max_sheep = 0
     def dfs(current, sheep, wolf, visited):
@@ -13,7 +13,9 @@ def solution(info, edges):
             wolf += 1
         if wolf >= sheep:
             return
+        
         max_sheep = max(max_sheep, sheep)
+        
         for i in range(len(visited)):
             if visited[i]:
                 for child in tree[i]:
